@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const config = {
     user: 'sa',
     password: 'duke1234',
-    server: 'SAP-3-156',
+    server: '10.1.3.160',
     database: 'Project_db',
     options: {
         encrypt: false,

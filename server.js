@@ -16,6 +16,7 @@ const config = {
     options: {
         encrypt: false,
         trustServerCertificate: true,
+        connectionTimeout: 60000,
     },
 };
 app.get('/customers', async (req, res) => {
